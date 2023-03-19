@@ -421,7 +421,6 @@ class Main:
 			print("    Thanks🥰♥️")
 			exit()
 		elif MAHIN in ["1", "01"]:
-			os.system(https://youtube.com/@ewrgamer)
 			print("")
 			time.sleep(2.0)
 			print("\033[1;33m    Apna nam type kro")

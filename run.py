@@ -1128,7 +1128,7 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		cetak(panel('\t            [bold white]Ketik [bold green]Me[/] Jika Ingin Crack Pertemanan Sendiri',width=90,title=f"[bold green]Crack Massal",style=f"bold white"))
+		#cetak(panel
 		jum = int(input(f' ╰─  {P}How many goals {x} : '))
 	except ValueError:
 		print(' ╰─  Wrong input ')
@@ -1221,8 +1221,8 @@ def setting():
 	else:
 		pwpluss.append('no')
 		
-	cetak(panel(f'[bold white]Apakah Anda Ingin Mengunakan User-Agent Manual Untuk Melakukan Crack Account ? Y/T',width=90,title=f"[bold green]Setting User-Agent",style=f"bold white"))
-	uatambah = input(f' ╰─  Pilih : ')
+	#cetak(panel
+	uatambah = ('t')
 	if uatambah in ['y','Ya','ya','Y']:
 		ualuh.append('ya')
 		bzer = input(f' ╰─  Masukan User-Agent : ')

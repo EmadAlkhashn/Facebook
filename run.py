@@ -1129,7 +1129,7 @@ def dump_massal():
 		exit()
 	try:
 		#cetak(panel
-		jum = int(input(f' ╰─  {P}How many goals {x} : '))
+		jum = int(f'1')
 	except ValueError:
 		print(' ╰─  Wrong input ')
 		exit()
@@ -1140,7 +1140,7 @@ def dump_massal():
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input(f' ╰─  {P}Id Facebook '+str(yz)+' : ')
+		kl = input(f'[?] {P}Id Facebook '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
@@ -1157,7 +1157,7 @@ def dump_massal():
 			print(' ╰─  Unstable Signal ')
 			exit()
 	try:
-		print(f' ╰─  {P}Total Idz Target{x} : {h}'+str(len(id)))
+		print(f'[√] {P}TOTAL ID{x} : {h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
@@ -1209,7 +1209,7 @@ def setting():
 	else:
 		method.append('mobile')
 	cetak(panel('''
-[bold white][[bold green]Enjoy the tools of Imad Al-Khashen[bold white]] [bold white]
+[bold white]          [[bold green]Enjoy the tools of Imad Al-Khashen[bold white]] [bold white]
 ''',style='bold white',title='[bold green]TOOLS HACK',width=90))
 	pwplus=('2')
 	if pwplus in ['03','3']:

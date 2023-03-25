@@ -1809,11 +1809,12 @@ def scarpping_ua():
         uascrap.append("Mozilla/5.0 (Linux; Android 11; RMX3501) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36")
 
 def login_emad():
-	cetak(panel(f""" LOGIN PASSWORD TOOLS """,width=90,title=f"LOGIN",style=f"bold white"))
+	cetak(panel(f"""[bold green] LOGIN PASSWORD TOOLS """,width=90,title=f"LOGIN",style=f"bold blue"))
 	x____x = input(f'[√] ENTER PASSWORD : ')
 	if x____x == ('MAXMAN'):
 		login()
 	else:
+		os.system('clear')
 		login_emad()
 #-----------------------[ SYSTEM-CONTROL ]--------------------#
 if __name__=='__main__':

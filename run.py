@@ -179,11 +179,11 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""
+	cetak(panel(f"""[blod green]
 TOOLS : Emad alkhashn
 HACK  : FACEBOOK 
 TIME  : 1/1/2023
-             """,width=90,title=f"TOOLS EMAD",style=f"bold white"))
+             """,width=90,title=f"TOOLS EMAD",style=f"bold blue"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -1210,7 +1210,7 @@ def setting():
 		method.append('mobile')
 	cetak(panel('''
 [bold white]        [[bold green]Enjoy the tools of Imad Al-Khashen[bold white]] [bold white]
-''',style='bold white',title='[bold green]TOOLS HACK',width=90))
+''',style='bold blue',title='[bold green]TOOLS HACK',width=90))
 	pwplus=('2')
 	if pwplus in ['03','3']:
 		pwpluss.append('ya')

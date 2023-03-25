@@ -1205,7 +1205,7 @@ def setting():
 	else:
 		method.append('mobile')
 	cetak(panel('''
-[bold white]        [[bold green]Enjoy the tools of Imad Al-Khashen[bold white]] [bold white]
+[bold white]       [[bold green]Enjoy the tools of Imad Al-Khashen[bold white]] [bold white]
 ''',style='bold blue',title='[bold green]TOOLS HACK',width=90))
 	pwplus=('2')
 	if pwplus in ['03','3']:
@@ -1826,4 +1826,4 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:pass
-	login_emad()
+	login()

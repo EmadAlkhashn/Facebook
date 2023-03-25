@@ -1129,7 +1129,7 @@ def dump_massal():
 		exit()
 	try:
 		#cetak(panel
-		jum = int(input(f'[√] Id crack : '))
+		jum = int(f'2')
 	except ValueError:
 		print(' ╰─  Wrong input ')
 		exit()
@@ -1253,10 +1253,6 @@ def passwrd():
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'321')
-						pwv.append('password')
-						pwv.append('12345678')
-						pwv.append('abc123')
-						pwv.append('123456')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
@@ -1266,10 +1262,6 @@ def passwrd():
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
-						pwv.append('password')
-						pwv.append('12345678')
-						pwv.append('abc123')
-						pwv.append('123456')
 						pwv.append(frs+'321')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')

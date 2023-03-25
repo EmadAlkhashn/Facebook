@@ -179,11 +179,7 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""[blod green]
-TOOLS : Emad alkhashn
-HACK  : FACEBOOK 
-TIME  : 1/1/2023
-             """,width=90,title=f"TOOLS EMAD",style=f"bold blue"))
+	cetak(panel(f"""[bold green]TOOLS : Emad alkhashn\nHACK  : FACEBOOK\nTIME  : 1/1/2023""",width=90,title=f"TOOLS EMAD",style=f"bold blue"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -210,7 +206,7 @@ def login_lagi334():
 		os.system('clear')
 		banner()
 		cetak(nel('It is recommended to use cookies that are still fresh to hack accounts',width=90,style=f"bold white"))
-		your_cookies = input(' ╰─  Masukan Cookie : ')
+		your_cookies = input(' ╰─ Cookie : ')
 		with requests.Session() as r:
 			try:
 				r.headers.update({'content-type': 'application/x-www-form-urlencoded',})
@@ -257,7 +253,7 @@ def login_lagi334():
 							print(f"\n ╰─  Token : {access_token}")
 							tokenew = open(".token.txt","w").write(access_token)
 							cook= open(".cok.txt","w").write(your_cookies)
-							print("\n ╰─  Login | python run.py");exit()
+							time.sleep(3);os.system('python run.py')
 			except Exception as e:
 				print(" ╰─  Cookies Mokad Kontol")
 				os.system('rm -rf .token.txt && rm -rf .cok.txt')

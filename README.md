@@ -1,3 +1,4 @@
+![Screenshot_٢٠٢٣٠٤٠٩-٢١٥١٤٢](https://user-images.githubusercontent.com/103214710/230791243-1b7da924-5c09-458c-832d-6e8bd757cde2.jpg)
 # لتفعيل الأداه يجب عليك تنزيل هذه الاوامر
 
  

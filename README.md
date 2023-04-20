@@ -23,12 +23,12 @@
 # HACK FACEBOOK
 ```python
 للتواصل مع المبرمج
-Telegram : https://t.me/imad192
+Telegram : imad192
 Whats : +961 70318652
 ```
 # تفعيل أشتراك ✅
 ```python
 أسبوعي : 25دولار
-شهري : 50دولتر
+شهري : 50دولار
 دائم : 75دولار
 ```
